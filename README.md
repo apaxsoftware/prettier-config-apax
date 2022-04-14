@@ -1,17 +1,17 @@
-# prettier-config-airbnb
+# prettier-config-apax
 
 A [Prettier](https://prettier.io) configuration based on the [Airbnb JavaScript style guide](https://github.com/airbnb/javascript)
 
 ## Installation
 
 ```sh
-npm install prettier-config-airbnb --save-dev
+npm install prettier-config-apax --save-dev
 ```
 
 or
 
 ```sh
-yarn add prettier-config-airbnb --dev
+yarn add prettier-config-apax --dev
 ```
 
 ## Usage
@@ -19,14 +19,14 @@ yarn add prettier-config-airbnb --dev
 Create a `.prettierrc.json` file in your project root directory with a value:
 
 ```json
-"prettier-config-airbnb"
+"prettier-config-apax"
 ```
 
 If you need to overwrite some properties, create a `.prettierrc.js` file in your project root directory, import the configuration and export the modifications:
 
 ```javascript
 module.exports = {
-  ...require('prettier-config-airbnb'),
+  ...require('prettier-config-apax'),
   printWidth: 120,
 };
 ```
