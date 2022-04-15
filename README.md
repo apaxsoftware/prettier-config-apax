@@ -5,13 +5,13 @@ A [Prettier](https://prettier.io) configuration based on the [Airbnb JavaScript 
 ## Installation
 
 ```sh
-npm install prettier-config-apax --save-dev
+npm install @apaxsoftware/prettier-config-apax --save-dev
 ```
 
 or
 
 ```sh
-yarn add prettier-config-apax --dev
+yarn add @apaxsoftware/prettier-config-apax --dev
 ```
 
 ## Usage
@@ -19,7 +19,7 @@ yarn add prettier-config-apax --dev
 Create a `.prettierrc.json` file in your project root directory with a value:
 
 ```json
-"prettier-config-apax"
+"@apaxsoftware/prettier-config-apax"
 ```
 
 If you need to overwrite some properties, create a `.prettierrc.js` file in your project root directory, import the configuration and export the modifications:
